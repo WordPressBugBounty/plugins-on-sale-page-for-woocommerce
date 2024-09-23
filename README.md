@@ -1,0 +1,1 @@
+# plugins-on-sale-page-for-woocommerce
