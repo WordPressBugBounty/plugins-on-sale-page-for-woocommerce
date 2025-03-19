@@ -1,11 +1,11 @@
 === OnSale Page for WooCommerce ===
-Contributors: wpgenie2
+Contributors: wpgenie2, freemius
 Donate link: https://wpgenie.org/store/
-Tags: wordpress onsale page, onsale page for woocommerce, onsale page, sales page, wpgenie
+Tags: wordpress onsale page, OnSale Page for WooCommerce, simple wordpress onsale page, onsale page, onsale page plugin, wordpress onsale page plugin, OnSale Page for WooCommerce plugin, simple onsale page, wpgenie onsale page, wpgenie
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 1.1.4
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -66,7 +66,17 @@ Go to WordPress settings -> Permalinks and click Save Cahnges button on the bott
 
 = How can I show only specific category of products that are on sale? =
 
-Load page with ?product_cat query parameter for example https://your-website.com/on-sale-page/?product_cat=uncategorized
+Load page with ?product_cat query parameter for example http://onsale.test/product-category/clothing/accessories/?onsale
+
+
+= What are PRO features? =
+
+Pro features: Elementor support, new pages for Featured and Grouped products, on sale in category with http://onsale.test/product-category/clothing/accessories/?onsale and access to our support ticket system on https://wpgenie.org/support/
+
+= How I can use Elementor? =
+
+You need to go to Templates > Theme Builder, then click "Add New", select Products Archive, insert template from Library, style it and
+then once completed click "Publish", add condition "On sale page", "Group products page" or "Featured products page". Save and close then publish.
 
 = Have a question? =
 
@@ -77,9 +87,19 @@ If you want answer here please send us your questions to info@wpgenie.org
 == Screenshots ==
 
 1. OnSale Page plugin options
-
+2. Two new types of pages (in PRO version)
+3. Display conditions screenshot 1 - Elementor support (in Pro version)
+4. Display conditions screenshot 2 - Elementor support (in Pro version)
 
 == Changelog ==
+
+= 2.0.0 =
+* Pro features introduced: Elementor support
+* Pro features introduced: new pages for Featured and Grouped products
+* Pro features introduced: on sale in category with special query arg ?onsale - https://onsale.test/product-category/clothing/accessories/?onsale
+* Add: hooks now as functions instead of class for easier unhooking
+* Add: Rank Math and Yoast support
+
 = 1.1.3 =
 * Fix: WPMU compatibility
 

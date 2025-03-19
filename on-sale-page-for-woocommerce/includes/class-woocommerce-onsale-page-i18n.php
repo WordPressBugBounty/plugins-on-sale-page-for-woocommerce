@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Define the internationalization functionality
  *
@@ -24,9 +23,7 @@
  * @subpackage Woocommerce_onsale_page/includes
  * @author     Your Name <email@example.com>
  */
-class Woocommerce_onsale_page_i18n {
-
-
+class Woocommerce_Onsale_Page_I18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
@@ -39,7 +36,5 @@ class Woocommerce_onsale_page_i18n {
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
-
 	}
-
 }
