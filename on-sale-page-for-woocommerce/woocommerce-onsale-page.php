@@ -26,7 +26,7 @@
  * Requires Plugins: woocommerce
  *
  * WC requires at least: 5.0
- * WC tested up to: 9.9
+ * WC tested up to: 10.3
  *
  */
 // If this file is called directly, abort.

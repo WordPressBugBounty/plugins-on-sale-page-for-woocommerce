@@ -1,10 +1,10 @@
 === OnSale Page for WooCommerce ===
 Contributors: wpgenie2, freemius
 Donate link: https://wpgenie.org/store/
-Tags: wordpress onsale page, OnSale Page for WooCommerce, simple wordpress onsale page, onsale page, onsale page plugin, wordpress onsale page plugin, OnSale Page for WooCommerce plugin, simple onsale page, wpgenie onsale page, wpgenie
+Tags: onsale page, onsale page for woocommerce, featured page for woocommerce, grouped products page for woocommerce
 Requires at least: 5.0
-Tested up to: 6.6
-Requires PHP: 5.6
+Tested up to: 6.8
+Requires PHP: 7.4
 Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
