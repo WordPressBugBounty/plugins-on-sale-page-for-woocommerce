@@ -113,7 +113,6 @@ class WC_Onsale_Page_Widget_Layered_Nav extends WC_Widget {
 		if ( ! is_post_type_archive( 'product' ) && ! is_tax( get_object_taxonomies( 'product' ) ) ) {
 			return;
 		}
-
 		$_chosen_attributes = WC_Query::get_layered_nav_chosen_attributes();
 		$taxonomy           = isset( $instance['attribute'] ) ? wc_attribute_taxonomy_name( $instance['attribute'] ) : $this->settings['attribute']['std'];
 		$query_type         = isset( $instance['query_type'] ) ? $instance['query_type'] : $this->settings['query_type']['std'];
@@ -177,7 +176,7 @@ class WC_Onsale_Page_Widget_Layered_Nav extends WC_Widget {
 		if ( ! $found ) {
 			ob_end_clean();
 		} else {
-			echo wp_kses( ob_get_clean() );
+			echo wp_kses_post( ob_get_clean() );
 		}
 	}
 

@@ -16,7 +16,7 @@
  * Plugin Name:       OnSale Page for WooCommerce
  * Plugin URI:        https://wordpress.org/plugins/last-users-order-column-for-woocommerce/
  * Description:       OnSale Page for WooCommerce is an extension for WooCommerce. We developed this plugin because WooCommerce has onsale widget and shortcode but it lacks paging, sorting and filtering which you can usually find on regular WooCommerce catalog page.
- * Version:           2.0.0
+ * Version:           2.0.1
  * Author:            wpgenie
  * Author URI:        http://wpgenie.org/
  * License:           GPL-2.0+
@@ -26,7 +26,7 @@
  * Requires Plugins: woocommerce
  *
  * WC requires at least: 5.0
- * WC tested up to: 10.3
+ * WC tested up to: 10.4
  *
  */
 // If this file is called directly, abort.

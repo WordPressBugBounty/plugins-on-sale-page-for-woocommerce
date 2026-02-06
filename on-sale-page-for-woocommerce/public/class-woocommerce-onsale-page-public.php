@@ -147,30 +147,6 @@ class Woocommerce_Onsale_Page_Public {
     }
 
     /**
-     * Woocommerce_page_content
-     *
-     * @return void
-     */
-    public function woocommerce_page_content() {
-        global $wp_query;
-        $onsale_page_id = $this->get_main_wpml_id( wc_get_page_id( 'onsale' ) );
-        if ( $wp_query->is_sale_page ) {
-            $post = get_post( $onsale_page_id );
-            $blocks = parse_blocks( $post->post_content );
-            if ( !empty( $blocks ) && function_exists( 'render_block' ) ) {
-                // render Gutenberg blocks.
-                foreach ( $blocks as $block ) {
-                    echo wp_kses_post( render_block( $block ) );
-                }
-            } else {
-                // render classic content.
-                $content = $post->post_content;
-                echo wp_kses_post( apply_filters( 'the_content', $content ) );
-            }
-        }
-    }
-
-    /**
      * Woocommerce get breadcrumb
      *
      * @param  array $crumbs crumb string.

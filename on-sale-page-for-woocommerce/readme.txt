@@ -1,11 +1,11 @@
 === OnSale Page for WooCommerce ===
 Contributors: wpgenie2, freemius
 Donate link: https://wpgenie.org/store/
-Tags: onsale page, onsale page for woocommerce, featured page for woocommerce, grouped products page for woocommerce
+Tags: woocommerce, sale, onsale, discount, catalog
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,11 +13,35 @@ OnSale Page is an extension for Woocommerce which enables you to have real on sa
 
 == Description ==
 
-OnSale Page for WooCommerce is an extension for WooCommerce. Since WooCommerce is popular we decided that it would be neat to
-extend it with real WordPress page which displays products on sale. We developed this plugin because WooCommerce
-has onsale widget and shortcode but it lacks paging, sorting and filtering which you can usually find on regular WooCommerce catalog page.
+**OnSale Page for WooCommerce** is an extension that creates a dedicated page for displaying products on sale with full catalog functionality.
 
-With our onsale page plugin you can setup OnSale Page for WooCommerce where you can display all products that are on sale. If you add text / content on your on sale page it will be displayed along with on sale products. Gutenberg and classic editor supported.
+WooCommerce includes an on-sale widget and shortcode, but these lack the pagination, sorting, and filtering options available on standard WooCommerce catalog pages. **OnSale Page for WooCommerce** addresses this limitation by providing a complete shop-style page specifically for sale products. 
+
+= Features =
+
+* Full pagination across multiple pages 
+* Product sorting options (price, popularity, date, etc.) 
+* Category and attribute filtering 
+* Standard WooCommerce catalog page layout and functionality 
+* Custom content support: add promotional text or banners above/below sale products 
+* Compatible with Gutenberg and Classic Editor 
+* Seamless integration with existing WooCommerce settings and themes
+
+= Use Cases =
+
+* Create a permanent "Sale" or "Deals" section in your store
+* Display seasonal promotions with proper navigation
+* Allow customers to browse and filter sale items like any other catalog page
+* Improve discoverability of discounted products
+
+= PRO features =
+
+All features of the free version, plus:
+
+* Elementor integration: Build custom sale page layouts with Elementor page builder
+* Additional page types:Create dedicated pages for Featured Products and Grouped Products with the same catalog functionality
+* Category-specific sale pages: Display sale products within specific categories using URL parameters (e.g., /product-category/clothing/?onsale)
+* Premium support: Direct access to our ticket support system at https://wpgenie.org/support/
 
 = Support =
 
@@ -92,6 +116,8 @@ If you want answer here please send us your questions to info@wpgenie.org
 4. Display conditions screenshot 2 - Elementor support (in Pro version)
 
 == Changelog ==
+= 2.0.1 =
+* Fix: layered nav error
 
 = 2.0.0 =
 * Pro features introduced: Elementor support
